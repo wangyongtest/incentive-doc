@@ -1,0 +1,21 @@
+{
+  "name": "vite-press",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "vitepress dev docs",
+    "build": "vitepress build docs",
+    "serve": "vitepress serve docs",
+    "pages": "npm run build && bash scripts/deploy-gh.sh"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "vitepress": "^0.22.3"
+  },
+  "devDependencies": {
+    "@vuepress/plugin-search": "^1.9.7"
+  }
+}
